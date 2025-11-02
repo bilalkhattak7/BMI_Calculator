@@ -1,16 +1,36 @@
-# bmi_calculator
+Project Overview
+An interactive Body Mass Index (BMI) calculator that provides real-time health assessment. Users can adjust height and weight using sliders to instantly see their BMI results with color-coded categories.
+ Features
+Real-time Calculation: Instant BMI updates as sliders move
 
-A new Flutter project.
+Height Adjustment: Slider from 100cm to 220cm
 
-## Getting Started
+Weight Adjustment: Slider from 30kg to 150kg
 
-This project is a starting point for a Flutter application.
+BMI Categories: Color-coded results (Underweight, Normal, Overweight, Obese)
 
-A few resources to get you started if this is your first Flutter project:
+Health Recommendations: Personalized advice based on BMI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Visual Scale: Reference BMI scale for quick comparison
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Responsive Design: Works seamlessly on all device sizes
+
+ Technical Skills Demonstrated
+Slider Widgets: Custom sliders with labels and ranges
+
+Real-time Updates: Immediate UI updates on value changes
+
+Mathematical Calculations: BMI formula implementation
+
+Color-coded UI: Dynamic color changes based on results
+
+Card Layouts: Organized information in card components
+
+SingleChildScrollView: Scrollable content area
+
+Screens
+Main calculator with height/weight sliders
+
+Results display with BMI value and category
+
+Health recommendations section
